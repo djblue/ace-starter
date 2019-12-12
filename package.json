@@ -1,0 +1,21 @@
+{
+  "name": "ace-starter",
+  "version": "1.0.0",
+  "main": "src/main/webapp/main.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@connexta/ace": "https://github.com/connexta/ace.git#d58809d4c6e87554482939647f3f8d8c1690178d"
+  },
+  "dependencies": {
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  },
+  "scripts": {
+    "prestart": "ace disable-idp",
+    "start": "ace start",
+    "fmt": "ace format -w",
+    "test": "ace format",
+    "build": "ace bundle"
+  },
+  "context-path": "/starter/"
+}
